@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PM Internship Recommendation</title>
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>Student Registration</h1>
+
+    <form action="/predict" method="POST">
+
+    <label>Student Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Degree:</label><br>
+    <input type="text" name="degree" required><br><br>
+
+    <label>Skills:</label><br>
+    <input type="text" name="skill" required><br><br>
+
+    <input type="submit" value="Recommend Company">
+
+</form>
+</div>
+
+</body>
+</html>
