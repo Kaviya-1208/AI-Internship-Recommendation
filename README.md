@@ -18,7 +18,7 @@ https://ai-internship-recommendation-ebrn.onrender.com
 🔗 GitHub Repository:
 https://github.com/Kaviya-1208/AI-Internship-Recommendation.git
 
-> Replace the above link with your actual GitHub repository link.
+
 
 ---
 
